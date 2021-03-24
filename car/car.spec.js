@@ -17,7 +17,8 @@ describe('Car class', () => {
     expect(newCar.model).toBeDefined()
   })
   it('cars can be initialized with a make and model', () => {
-    // ?
+    // we can instantiate a car passing make and model
+    // and that gives us an object with same make and model
   })
 })
 
