@@ -11,7 +11,9 @@ describe('Car class', () => {
     const prius = new Car()
     expect(prius).toBeInstanceOf(Car)
   })
-  it('')
+  it('instances of cars have a model prop', () => {
+    // ?
+  })
 })
 
 function addsOne(num) {
