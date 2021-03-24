@@ -35,7 +35,7 @@ describe('Car class', () => {
     expect(focus.odometer).toBe(0)
   })
   it('has a drive method that takes distance and inc odometer', () => {
-
+    // e.g. focus.drive()
   })
 })
 
