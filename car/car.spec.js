@@ -48,7 +48,13 @@ describe('Car class', () => {
   })
   it('async drive works too', async () => {
     const distanceDriven = await focus.driveAsync(5)
-    expect(distanceDriven)
+    expect(distanceDriven).toBe(5)
+  })
+  it('async drive works too', () => {
+    focus.driveAsync(5)
+      .then(data => {
+        expect(data).toBe(5)
+      })
   })
 })
 
