@@ -26,6 +26,6 @@ describe('intro to jest', () => { // to organize
 
   it('returns a string with a greet', () => {
     expect(greets('Remy')).toBe('Hello Remy')
-    expect(greets('Remy')).toMatch()
+    expect(greets('Remy')).toMatch(/hello/i)
   })
 })
