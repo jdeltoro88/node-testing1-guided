@@ -24,7 +24,8 @@ describe('intro to jest', () => { // to organize
     expect(actualResult).toBe(expectedResult) // scalar values (not arr not objects)
   })
 
-  it('does greet', () => {
-    expect(greets('Remy')).toBe('')
+  it('returns a string with a greet', () => {
+    expect(greets('Remy')).toBe('Hello Remy')
+    expect(greets('Remy')).toMatch()
   })
 })
