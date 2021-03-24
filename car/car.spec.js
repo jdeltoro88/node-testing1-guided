@@ -42,7 +42,9 @@ describe('Car class', () => {
     expect(focus.odometer).toBe(22)
   })
   it('drive method returns the distance driven', () => {
-    const actualDistance = focus.drive()
+    const actualDistance = focus.drive(77)
+    
+    expect(actualDistance).toBe(77)
   })
 })
 
