@@ -6,8 +6,11 @@ const Car = require('./car')
 describe('Car class', () => {
   let focus
   beforeEach(() => {
+    // migrate db
+    // seed db
     focus = new Car('ford', 'focus')
   })
+  // beforeAll, afterAll, afterEach
   it('exists', () => {
     expect(Car).toBeDefined()
   })
