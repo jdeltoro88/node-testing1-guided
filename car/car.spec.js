@@ -46,6 +46,7 @@ describe('Car class', () => {
     const expectedDistance = 77
     expect(actualDistance).toBe(expectedDistance)
   })
+  it('')
 })
 
 function addsOne(num) {
