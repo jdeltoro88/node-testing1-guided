@@ -3,7 +3,7 @@ class Car {
   constructor(make, model) {
     this.model = model
     this.make = make
-    this.foo = 'bar'
+    this.odometer = 0
   }
 }
 
