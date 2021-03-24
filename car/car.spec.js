@@ -9,7 +9,7 @@ function addsOne(num) {
 }
 
 function greets(name) {
-  // you
+  return `Hello ${name}`
 }
 
 describe('intro to jest', () => { // to organize
@@ -24,5 +24,5 @@ describe('intro to jest', () => { // to organize
     expect(actualResult).toBe(expectedResult) // scalar values (not arrays)
   })
 
-  // you
+  it('')
 })
