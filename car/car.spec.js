@@ -15,6 +15,8 @@ describe('intro to jest', () => { // to organize
   })
 
   it('adds one to the input number', () => {
-    const 
+    const expectedResult = 3
+    const actualResult = addsOne(2)
+    expect(actualResult).toBe(expectedResult)
   })
 })
