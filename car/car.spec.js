@@ -39,7 +39,7 @@ describe('Car class', () => {
     focus.drive(10)
     focus.drive(5)
     focus.drive(7)
-    expect
+    expect(focus.odometer).toBe(22)
   })
 })
 
