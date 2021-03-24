@@ -43,8 +43,8 @@ describe('Car class', () => {
   })
   it('drive method returns the distance driven', () => {
     const actualDistance = focus.drive(77)
-    
-    expect(actualDistance).toBe(77)
+    const expectedDistance = 77
+    expect(actualDistance).toBe(expectedDistance)
   })
 })
 
