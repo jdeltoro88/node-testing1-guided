@@ -12,7 +12,8 @@ describe('Car class', () => {
     expect(prius).toBeInstanceOf(Car)
   })
   it('instances of cars have a model prop', () => {
-    // ?
+    const newCar = new Car()
+    expect(newCar).
   })
 })
 
