@@ -7,6 +7,9 @@ describe('Car class', () => {
   it('exists', () => {
     expect(Car).toBeDefined()
   })
+  it('we can make a car with it', () => {
+    // setup ?
+  })
 })
 
 function addsOne(num) {
