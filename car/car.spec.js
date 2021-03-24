@@ -46,7 +46,10 @@ describe('Car class', () => {
     const expectedDistance = 77
     expect(actualDistance).toBe(expectedDistance)
   })
-  it('')
+  it('async drive works too', async () => {
+    const distanceDriven = await focus.driveAsync(5)
+    expect(distanceDriven)
+  })
 })
 
 function addsOne(num) {
