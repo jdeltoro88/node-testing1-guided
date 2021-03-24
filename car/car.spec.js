@@ -9,8 +9,9 @@ describe('Car class', () => {
   })
   it('we can make a car with it', () => {
     const prius = new Car()
-    expect(prius).
+    expect(prius).toBeInstanceOf(Car)
   })
+  it('')
 })
 
 function addsOne(num) {
