@@ -13,4 +13,8 @@ describe('intro to jest', () => { // to organize
     expect(true).toBe(true) // assertion
     expect(true).not.toBe(false) // assertion
   })
+
+  it('adds one to the input number', () => {
+    const 
+  })
 })
