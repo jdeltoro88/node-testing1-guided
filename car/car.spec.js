@@ -23,6 +23,7 @@ describe('Car class', () => {
     expect(focus).toHaveProperty('make', 'ford')
     expect(focus).toHaveProperty('model', 'focus')
     expect(focus.make).toBe('ford')
+    // expect(focus).toEqual({ make: 'ford', model: 'focus' })
   })
 })
 
@@ -57,6 +58,6 @@ describe('intro to jest', () => { // to organize
   })
 
   it('returns an object with the name', () => {
-    expect(objectify('Jon')).toEqual({ name: 'Jon'})
+    expect(objectify('Jon')).toEqual({ name: 'Jon' })
   })
 })
