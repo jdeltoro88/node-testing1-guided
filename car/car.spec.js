@@ -8,6 +8,10 @@ function addsOne(num) {
   return num + 1
 }
 
+function greets(name) {
+  // 
+}
+
 describe('intro to jest', () => { // to organize
   test('returns a new value', () => { // test
     expect(true).toBe(true) // assertion
@@ -17,6 +21,6 @@ describe('intro to jest', () => { // to organize
   it('adds one to the input number', () => {
     const expectedResult = 3
     const actualResult = addsOne(2)
-    expect(actualResult).toBe(expectedResult)
+    expect(actualResult).toBe(expectedResult) // scalar values (not arrays)
   })
 })
