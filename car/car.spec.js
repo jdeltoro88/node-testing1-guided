@@ -12,18 +12,15 @@ describe('Car class', () => {
     expect(Car).toBeDefined()
   })
   it('we can make a car with it', () => {
-    const prius = new Car()
-    expect(prius).toBeInstanceOf(Car)
+    expect(focus).toBeInstanceOf(Car)
   })
   it('instances of cars have a model prop', () => {
-    const newCar = new Car('ford', 'focus')
-    expect(newCar).toHaveProperty('model')
-    expect(newCar.model).toBeDefined()
+    expect(focus).toHaveProperty('model')
+    expect(focus.model).toBeDefined()
   })
   it('cars can be initialized with a make and model', () => {
     // we can instantiate a car passing make and model
     // and that gives us an object with same make and model
-    const focus = new Car('ford', 'focus')
     expect(focus).toHaveProperty('make', 'ford')
     expect(focus).toHaveProperty('model', 'focus')
     expect(focus.make).toBe('ford')
@@ -32,7 +29,6 @@ describe('Car class', () => {
     expect(focus).toMatchObject({ model: 'focus', make: 'ford' })
   })
   it('has an odometer initialized at zero for all cars', () => {
-    const focus = new Car('ford', 'focus')
     expect(focus.odometer).toBe(0)
   })
 })
