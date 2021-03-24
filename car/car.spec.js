@@ -8,7 +8,7 @@ describe('Car class', () => {
     expect(Car).toBeDefined()
   })
   it('we can make a car with it', () => {
-    // setup ?
+    const prius = new Car()
   })
 })
 
