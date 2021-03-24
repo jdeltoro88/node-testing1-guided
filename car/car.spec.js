@@ -6,7 +6,7 @@ const Car = require('./car')
 describe('Car class', () => {
   let focus
   beforeEach(() => {
-    //
+    focus = new Car('ford', 'focus')
   })
   it('exists', () => {
     expect(Car).toBeDefined()
