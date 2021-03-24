@@ -1,3 +1,5 @@
+const Car = require('./car')
+
 // unit tests test the smallest parts of a program
 // functions, classes or modules with functions
 // external libraries are mocked
