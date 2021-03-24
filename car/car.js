@@ -1,7 +1,8 @@
 // Build a Car class!
 class Car {
-  constructor() {
-    this.model = 'prius'
+  constructor(make, model) {
+    this.model = model
+    this.make = make
   }
 }
 
