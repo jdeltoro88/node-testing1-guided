@@ -25,7 +25,8 @@ describe('intro to jest', () => { // to organize
   it('adds one to the input number', () => {
     const expectedResult = 3
     const actualResult = addsOne(2)
-    expect(actualResult).toBe(expectedResult) // scalar values (not arr not objects)
+    expect(actualResult).toBe(expectedResult)
+    // toBe works with scalar values (not arrays not objects)
   })
 
   it('returns a string with a greet', () => {
@@ -34,6 +35,6 @@ describe('intro to jest', () => { // to organize
   })
 
   it('returns an object with the name', () => {
-    expect(objectify('Jon')).toBe({ name: 'Jon'})
+    expect(objectify('Jon')).toEqual({ name: 'Jon'})
   })
 })
