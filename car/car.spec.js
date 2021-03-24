@@ -21,8 +21,10 @@ describe('intro to jest', () => { // to organize
   it('adds one to the input number', () => {
     const expectedResult = 3
     const actualResult = addsOne(2)
-    expect(actualResult).toBe(expectedResult) // scalar values (not arrays)
+    expect(actualResult).toBe(expectedResult) // scalar values (not arr not objects)
   })
 
-  it('')
+  it('does greet', () => {
+    expect(greets('Remy')).toBe('')
+  })
 })
