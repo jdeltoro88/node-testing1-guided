@@ -4,6 +4,11 @@ const Car = require('./car')
 // functions, classes or modules with functions
 // external libraries are mocked
 
+describe('Car class', () => {
+  
+})
+
+
 function addsOne(num) {
   return num + 1
 }
