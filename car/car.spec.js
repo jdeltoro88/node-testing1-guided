@@ -13,7 +13,8 @@ describe('Car class', () => {
   })
   it('instances of cars have a model prop', () => {
     const newCar = new Car()
-    expect(newCar).
+    expect(newCar).toHaveProperty('model')
+    expect(newCar.model).toBeDefined()
   })
 })
 
