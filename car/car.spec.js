@@ -4,6 +4,10 @@ const Car = require('./car')
 // external libraries are mocked
 
 describe('Car class', () => {
+  let focus
+  beforeEach(() => {
+    //
+  })
   it('exists', () => {
     expect(Car).toBeDefined()
   })
