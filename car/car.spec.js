@@ -31,8 +31,11 @@ describe('Car class', () => {
     // expect(focus).toEqual({ make: 'ford', model: 'focus' })
     expect(focus).toMatchObject({ model: 'focus', make: 'ford' })
   })
-  it.only('has an odometer initialized at zero for all cars', () => {
+  it('has an odometer initialized at zero for all cars', () => {
     expect(focus.odometer).toBe(0)
+  })
+  it('has a drive method that takes distance and inc odometer', () => {
+
   })
 })
 
