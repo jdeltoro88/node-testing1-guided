@@ -1,6 +1,8 @@
 // Build a Car class!
-module.exports = class Car {
+class Car {
   constructor() {
     this.model = 'prius'
   }
 }
+
+module.exports = Car
