@@ -12,6 +12,10 @@ function greets(name) {
   return `Hello ${name}`
 }
 
+function objectify(name) {
+  return { name }
+}
+
 describe('intro to jest', () => { // to organize
   test('returns a new value', () => { // test
     expect(true).toBe(true) // assertion
