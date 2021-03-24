@@ -23,8 +23,9 @@ describe('Car class', () => {
     expect(focus).toHaveProperty('make', 'ford')
     expect(focus).toHaveProperty('model', 'focus')
     expect(focus.make).toBe('ford')
-    // expect(focus).toEqual({ make: 'ford', model: 'focus' })
-    expect(focus).toMatchObject({ make: 'ford', model: 'focus' })
+    
+    expect(focus).toEqual({ make: 'ford', model: 'focus' })
+    expect(focus).toMatchObject({ model: 'focus', make: 'ford' })
   })
 })
 
