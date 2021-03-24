@@ -32,4 +32,8 @@ describe('intro to jest', () => { // to organize
     expect(greets('Remy')).toBe('Hello Remy')
     expect(greets('Remy')).toMatch(/hello/i)
   })
+
+  it('returns an object with the name', () => {
+    expect(objectify('Jon')).toBe({ name: 'Jon'})
+  })
 })
