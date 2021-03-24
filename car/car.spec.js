@@ -8,7 +8,6 @@ describe('Car class', () => {
   
 })
 
-
 function addsOne(num) {
   return num + 1
 }
