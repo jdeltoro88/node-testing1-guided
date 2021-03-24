@@ -17,7 +17,7 @@ describe('Car class', () => {
     expect(newCar.model).toBeDefined()
   })
   it('cars can be initialized with a custom make and model', () => {
-
+    // ?
   })
 })
 
