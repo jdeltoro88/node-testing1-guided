@@ -22,7 +22,7 @@ describe('Car class', () => {
     const focus = new Car('ford', 'focus')
     expect(focus).toHaveProperty('make', 'ford')
     expect(focus).toHaveProperty('model', 'focus')
-    expect(focus.make)
+    expect(focus.make).toBe('ford')
   })
 })
 
