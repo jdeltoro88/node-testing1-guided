@@ -20,8 +20,9 @@ describe('Car class', () => {
     // we can instantiate a car passing make and model
     // and that gives us an object with same make and model
     const focus = new Car('ford', 'focus')
-    expect(focus).toHaveProperty('make')
-    expect(focus).toHaveProperty('model')
+    expect(focus).toHaveProperty('make', 'ford')
+    expect(focus).toHaveProperty('model', 'focus')
+    expect(focus.make)
   })
 })
 
