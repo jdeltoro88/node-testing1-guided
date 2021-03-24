@@ -13,7 +13,6 @@ class Car {
     this.odometer += dist
     return Promise.resolve(dist)
   }
-  // driveAsync(5).then(dist)
 }
 
 module.exports = Car
