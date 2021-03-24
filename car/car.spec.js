@@ -4,6 +4,10 @@ const Car = require('./car')
 // functions, classes or modules with functions
 // external libraries are mocked
 
+function addsOne(num) {
+  return num + 1
+}
+
 describe('intro to jest', () => { // to organize
   test('returns a new value', () => { // test
     expect(true).toBe(true) // assertion
