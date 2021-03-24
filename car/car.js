@@ -9,6 +9,10 @@ class Car {
     this.odometer += dist
     return dist
   }
+  driveAsync(dist) {
+    this.odometer += dist
+    return Promise.
+  }
 }
 
 module.exports = Car
